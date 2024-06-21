@@ -6,8 +6,11 @@
     "routes": [
         {
           "src": "/(.*)",
-          "dest": "/",
-          "myform":"/myform"
+          "dest": "/"
+        },
+        {
+            "src":"/myform",
+            "dest":"/myform"
         }
     ]
   }
